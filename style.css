@@ -1,0 +1,52 @@
+#SIvCob {
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 500px) {
+  #SIvCob {
+    margin-top: 150px;
+  }
+}
+
+input[type="button"] {
+  background: none;
+  border-radius: 3px;
+  border: 1px solid #575757;
+  color: #575757;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 4px;
+  outline: none;
+  padding: 5px 16px;
+  border: 1px solid #575757;
+  transition: all 0.4ms;
+}
+
+input[type="button"]:hover {
+  border: 1px solid #919191;
+  color: #919191;
+}
+
+input[type="button"]:active {
+  transform: scale(0.8);
+  transition: all 0.4ms;
+}
+
+.features_container {
+  margin-bottom: 10px;
+}
+
+.guide,
+.guide:link,
+.guide:visited,
+.guide:focus {
+  margin-left: 10px;
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
+.guide:hover {
+  text-decoration: underline;
+  color: rgb(0, 92, 184);
+}

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "AdvancedSearch for Google",
+  "description": "Search google like a pro using the advanced search features.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/icon-16px.png",
+    "32": "images/icon-32px.png",
+    "48": "images/icon-48px.png",
+    "128": "images/icon-128px.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16px.png",
+      "32": "images/icon-32px.png",
+      "48": "images/icon-48px.png",
+      "128": "images/icon-128px.png"
+    },
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/", "https://www.google.com/webhp*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

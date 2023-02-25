@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+}
+
+.container {
+  padding: 5px;
+  color: #1a1a1a;
+}
+
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 92, 184);
+}
+
+.search_box {
+  margin-bottom: 8px;
+}
+
+.search-input {
+  width: 350px;
+  height: 30px;
+  outline: none;
+  color: #575757;
+  background-color: #fff;
+  border: 1px solid #575757;
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-size: 16px;
+}
+
+.search-input:focus,
+.search-input:hover {
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+}
+
+input[type="button"] {
+  background: none;
+  border-radius: 3px;
+  border: 1px solid #575757;
+  color: #575757;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  outline: none;
+  padding: 5px 16px;
+  border: 1px solid #575757;
+  transition: all 0.4ms;
+  margin: 0 5px 5px 0;
+}
+
+input[type="button"]:hover {
+  border: 1px solid #919191;
+  color: #919191;
+}
+
+input[type="button"]:active {
+  transform: scale(0.8);
+  transition: all 0.4ms;
+}
+
+.features {
+  margin-top: 5px;
+}
+
+.search_button_container {
+  margin-top: 15px;
+}
+.search_button {
+  background-color: #f8f9fa;
+  color: #1a1a1a;
+  padding: 10px;
+  border: 1px solid #919191;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.search_button:hover {
+  border: 1px solid #575757;
+  color: #1a1a1a;
+}
+
+.search_button:active {
+  border: 1px solid dodgerblue;
+}
+
+.info {
+  margin-top: 30px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="search_box" id="form">
+        <input
+          maxlength="2048"
+          required
+          class="search-input"
+          type="text"
+          placeholder="Search Google or type a URL"
+          id="query"
+        />
+      </form>
+      <div class="features">
+        <input value="Site" type="button" id="site" />
+        <input value="Filetype" type="button" id="filetype" />
+        <input value="Exact" type="button" id="exact" />
+        <input value="OR" type="button" id="or" />
+        <input value="Include (+)" type="button" id="include" />
+        <input value="Exclude (-)" type="button" id="exclude" />
+        <input value="Range (..)" type="button" id="range" />
+        <input value="Before" type="button" id="before" />
+        <input value="After" type="button" id="after" />
+        <input value="*" type="button" id="wildcard" />
+        <input value="@" type="button" id="social_handle" />
+        <input value="$" type="button" id="price" />
+        <input value="#" type="button" id="hashtag" />
+        <input value="Define" type="button" id="define" />
+        <input value="Stocks" type="button" id="stocks" />
+        <input value="Related" type="button" id="related" />
+      </div>
+      <div class="search_button_container">
+        <a target="_blank" class="search_button" id="search">Google Search</a>
+      </div>
+      <div class="info">
+        <p id="warning">
+          For better experience please visit
+          <a target="_blank" href="https://www.google.com/">Google.com</a>
+        </p>
+        <p>
+          Visit user guide to learn about google's advanced search feature ➙
+          <a target="_blank" href="">user guide 📃</a>
+        </p>
+        <p>
+          Created By ~
+          <a target="_blank" href="https://ashishjaiswar.com/"
+            >Ashish Jaiswar</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>
